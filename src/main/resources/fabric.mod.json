@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "utopia_custom",
+	"version": "${version}",
+	"name": "Utopia Custom",
+	"description": "Utopia Journey's custom items.",
+	"authors": [
+		"Limit 小火柴",
+		"OrzMiku"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/OrzMiku/UtopiaCustom"
+	},
+	"license": "MIT",
+	"icon": "assets/utopia_custom/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"show.miku.UtopiaCustom"
+		]
+	},
+	"mixins": [
+		"utopia_custom.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}

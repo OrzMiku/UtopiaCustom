@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "utopia_custom:money_5"
+    },
+    {
+      "item": "utopia_custom:money_5"
+    }
+  ],
+  "result": {
+    "item": "utopia_custom:money_10",
+    "count": 1
+  }
+}
