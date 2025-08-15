@@ -17,7 +17,7 @@ import show.miku.UtopiaCustom;
 public class UtopiaCustomItems {
     public static final RegistryKey<ItemGroup> UTOPIA_CUSTOM_ITEM_GROUP_KEY = RegistryKey.of(RegistryKeys.ITEM_GROUP, Identifier.of(UtopiaCustom.MOD_ID, "item_group"));
     public static final ItemGroup UTOPIA_CUSTOM_ITEM_GROUP = FabricItemGroup.builder()
-        .icon(UtopiaCustomItems.LOTTERY_TICKET::getDefaultStack)
+        .icon(() -> UtopiaCustomItems.LOTTERY_TICKET.getDefaultStack())
         .displayName(Text.translatable("itemGroup." + UtopiaCustom.MOD_ID))
         .build();
 
